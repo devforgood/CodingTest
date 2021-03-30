@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClCompile Include="ExhaustiveSearch.cpp" />
     <ClCompile Include="GymClothes.cpp" />
+    <ClCompile Include="Immigration.cpp" />
     <ClCompile Include="MoreSpicy.cpp" />
     <ClCompile Include="NExpression.cpp" />
     <ClCompile Include="pch.cpp">
