@@ -157,6 +157,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ExhaustiveSearch.cpp" />
+    <ClCompile Include="FarthestNode.cpp" />
     <ClCompile Include="GymClothes.cpp" />
     <ClCompile Include="Immigration.cpp" />
     <ClCompile Include="MoreSpicy.cpp" />
