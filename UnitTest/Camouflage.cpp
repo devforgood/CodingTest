@@ -72,20 +72,11 @@ namespace UnitTest
         int solution(vector<vector<string>> clothes) {
             int answer = 1;
             unordered_map<string, int> map;
-            for (auto c : clothes)
-            {
-                if (map.find(c[1]) != map.end())
-                {
-                    map[c[1]] += 1;
-                }
-                else
-                {
-                    map[c[1]] = 2;
-                }
-            }
+			for (auto c : clothes)
+				map[c[1]] += 1;
 
-            for (auto m : map)
-                answer *= m.second;
+			for (auto m : map)
+				answer *= (m.second + 1);
 
 
             return answer-1;
@@ -93,6 +84,10 @@ namespace UnitTest
 
         TEST_METHOD(TestMethod1)
         {
+            // 코멘트
+            // 1) combination 공식과 연관된 것으로 착각하여 해깔림
+            // 2) 아무것도 입지 않는 경우를 넣어야 한다는 것을 모름
+            
 
             // 예를 들어 머리부분 3개고, 눈부분 2개면요 -> ([머리] 입을 수 있는 경우 3가지 + 아무것도 안 입는 경우 1가지) * ([눈] 입을 수 있는 경우 2가지 + 아무것도 안 입는 경우 1가지) 이렇게 계산이 되는데, 
             // 문제에서 적어도 무언가는 하나는 써야 한다고 했으니 모든 부분에 아무것도 안 입는 경우 1가지를 제외하는 겁니다.
