@@ -51,6 +51,9 @@
     <ClCompile Include="BastAlbum.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="StockPrice.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
