@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClCompile Include="BastAlbum.cpp" />
     <ClCompile Include="Camouflage.cpp" />
+    <ClCompile Include="DiskController.cpp" />
     <ClCompile Include="ExhaustiveSearch.cpp" />
     <ClCompile Include="FarthestNode.cpp" />
     <ClCompile Include="GymClothes.cpp" />
