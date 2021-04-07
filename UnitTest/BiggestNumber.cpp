@@ -30,34 +30,34 @@ namespace UnitTest
         struct cmp {
             bool operator()(string a, string b) 
             {
-                string a_tmp = a;
-                string b_tmp = b;
+                //string a_tmp = a;
+                //string b_tmp = b;
 
-                int length;
+                //int length;
 
-                if (a.length() > b.length())
-                {
-                    length = a.length();
-                    b_tmp += a_tmp;
-                }
-                else if (a.length() < b.length())
-                {
-                    length = b.length();
-                    a_tmp += b_tmp;
-                }
-                else
-                {
-                    length = a.length();
-                }
+                //if (a.length() > b.length())
+                //{
+                //    length = a.length();
+                //    b_tmp += a_tmp;
+                //}
+                //else if (a.length() < b.length())
+                //{
+                //    length = b.length();
+                //    a_tmp += b_tmp;
+                //}
+                //else
+                //{
+                //    length = a.length();
+                //}
 
-                for (int i = 0; i < length; ++i)
-                {
-                    if (a_tmp[i] == b_tmp[i])
-                    {
-                        continue;
-                    }
-                    return a_tmp[i] > b_tmp[i];
-                }
+                //for (int i = 0; i < length; ++i)
+                //{
+                //    if (a_tmp[i] == b_tmp[i])
+                //    {
+                //        continue;
+                //    }
+                //    return a_tmp[i] > b_tmp[i];
+                //}
 
                 // 최소 길이 비교후 같을 경우 두개의 최대 길이로 비교
                 return a+b > b+a;
