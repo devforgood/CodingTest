@@ -159,6 +159,7 @@
     <ClCompile Include="BastAlbum.cpp" />
     <ClCompile Include="BiggestNumber.cpp" />
     <ClCompile Include="Camouflage.cpp" />
+    <ClCompile Include="Carpet.cpp" />
     <ClCompile Include="DiskController.cpp" />
     <ClCompile Include="ExhaustiveSearch.cpp" />
     <ClCompile Include="FarthestNode.cpp" />
