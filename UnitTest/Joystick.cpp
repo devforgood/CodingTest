@@ -72,7 +72,7 @@ namespace UnitTest
             return answer;
         }
 
-        int solution2(string name)
+        int solution3(string name)
         {
             int answer = 0;
             char start = 'A';
