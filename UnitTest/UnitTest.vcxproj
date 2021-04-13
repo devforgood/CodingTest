@@ -168,6 +168,7 @@
     <ClCompile Include="IntegerTriangle.cpp" />
     <ClCompile Include="Joystick.cpp" />
     <ClCompile Include="MoreSpicy.cpp" />
+    <ClCompile Include="Network.cpp" />
     <ClCompile Include="NExpression.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

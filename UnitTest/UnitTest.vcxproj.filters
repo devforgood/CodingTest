@@ -13,61 +13,67 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="programmers">
+      <UniqueIdentifier>{cd35f50f-885f-4e39-9f2e-bd016dcc6d74}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="UnitTest.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="pch.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Sort.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ExhaustiveSearch.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TargetNumber.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="NExpression.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MoreSpicy.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="GymClothes.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Immigration.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FarthestNode.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Camouflage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="BastAlbum.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StockPrice.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="DiskController.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="BiggestNumber.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="Camouflage.cpp">
+      <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="Carpet.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>programmers</Filter>
     </ClCompile>
-    <ClCompile Include="Joystick.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="DiskController.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExhaustiveSearch.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="FarthestNode.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="GymClothes.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="Immigration.cpp">
+      <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="IntegerTriangle.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="Joystick.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="MoreSpicy.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="NExpression.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="StockPrice.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetNumber.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTest.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
