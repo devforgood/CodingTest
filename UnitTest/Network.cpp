@@ -27,11 +27,9 @@ namespace UnitTest
     {
     public:
 
-        int dfs(vector<vector<int>> computers, int j, int n, bool visited[])
+        void dfs(vector<vector<int>> computers, int j, int n, bool visited[])
         {
-            visited[j] = true;
-            int cnt = 1;
-
+ 
             for (int k = 0; k < n; ++k)
 			{
                 if (j == k)
@@ -43,42 +41,27 @@ namespace UnitTest
                 if (visited[k] == true)
                     continue;
 
-				cnt += dfs(computers, k, n, visited);
+                visited[k] = true;
 
+
+				dfs(computers, k, n, visited);
 			}
-            return cnt;
         }
 
         int solution(int n, vector<vector<int>> computers) {
-            int answer = n;
+            int answer = 0;
             bool visited[200 + 1] = { 0, };
 
+			for (int i = 0; i < n; ++i)
+			{
+				if (visited[i] == true)
+					continue;
 
-            int cnt;
-            for (int i = 0; i < n; ++i)
-            {
-                if (visited[i] == true)
-                    continue;
+				visited[i] = true;
+				++answer;
 
-                visited[i] = true;
-
-                cnt = 0;
-                for (int j = 0; j < n; ++j)
-                {
-                    if (i == j)
-                        continue;
-
-                    if (visited[j] == true)
-                        continue;
-
-                    if (computers[i][j] == 0)
-                        continue;
-                    
-                    cnt += dfs(computers, j, n, visited);
-                }
-
-                answer -= cnt;
-            }
+				dfs(computers, i, n, visited);
+			}
 
             return answer;
         }
