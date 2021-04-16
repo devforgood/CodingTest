@@ -71,6 +71,9 @@
     <ClCompile Include="Rank.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
+    <ClCompile Include="FunctionDevelop.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
