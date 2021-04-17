@@ -27,57 +27,10 @@ namespace UnitTest
     {
     public:
 
-        struct double_ended_priority_queue {
-            set<int> s;
-
-            int size()
-            {
-                return s.size();
-            }
-
-
-            bool isEmpty()
-            {
-                return (s.size() == 0);
-            }
-
-            void insert(int x)
-            {
-                s.insert(x);
-            }
-
-
-            int getMin()
-            {
-                return *(s.begin());
-            }
-
-
-            int getMax()
-            {
-                return *(s.rbegin());
-            }
-
-            void deleteMin()
-            {
-                if (s.size() == 0)
-                    return;
-                s.erase(s.begin());
-            }
-
-            void deleteMax()
-            {
-                if (s.size() == 0)
-                    return;
-                auto it = s.end();
-                it--;
-                s.erase(it);
-            }
-        };
 
         vector<int> solution(vector<string> operations) {
             vector<int> answer;
-            double_ended_priority_queue queue;
+            set<int> queue;
 
             for (auto op : operations)
             {
@@ -87,19 +40,25 @@ namespace UnitTest
                 }
                 else if (op == "D 1")
                 {
-                    queue.deleteMax();
+                    if (queue.empty() == false)
+                    {
+                        queue.erase(--queue.end());
+                    }
                 }
                 else
                 {
-                    queue.deleteMin();
+                    if (queue.empty() == false)
+                    {
+                        queue.erase(queue.begin());
+                    }
                 }
             }
 
-            if (queue.isEmpty())
+            if (queue.empty())
                 return { 0, 0 };
 
-            answer.push_back(queue.getMax());
-            answer.push_back(queue.getMin());
+            answer.push_back(*queue.rbegin());
+            answer.push_back(*queue.begin());
 
             return answer;
         }
