@@ -77,6 +77,9 @@
     <ClCompile Include="DoubleEndedPriorityQueue.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
+    <ClCompile Include="HIndex.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

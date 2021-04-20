@@ -166,6 +166,7 @@
     <ClCompile Include="FarthestNode.cpp" />
     <ClCompile Include="FunctionDevelop.cpp" />
     <ClCompile Include="GymClothes.cpp" />
+    <ClCompile Include="HIndex.cpp" />
     <ClCompile Include="Immigration.cpp" />
     <ClCompile Include="IntegerTriangle.cpp" />
     <ClCompile Include="Joystick.cpp" />
