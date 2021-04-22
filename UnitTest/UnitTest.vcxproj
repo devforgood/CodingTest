@@ -170,6 +170,7 @@
     <ClCompile Include="Immigration.cpp" />
     <ClCompile Include="IntegerTriangle.cpp" />
     <ClCompile Include="Joystick.cpp" />
+    <ClCompile Include="MockTest.cpp" />
     <ClCompile Include="MoreSpicy.cpp" />
     <ClCompile Include="Network.cpp" />
     <ClCompile Include="NExpression.cpp" />

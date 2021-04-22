@@ -169,8 +169,8 @@ namespace UnitTest
         }
         TEST_METHOD(TestMethod1)
         {
-            Assert::AreEqual(11, solution("JAZ"));
-			Assert::AreEqual(11, solution("ABABAAAAABA"));
+ /*           Assert::AreEqual(11, solution("JAZ"));
+			Assert::AreEqual(11, solution("ABABAAAAABA"));*/
 
 			Assert::AreEqual(56, solution("JEROEN"));
 
