@@ -158,6 +158,7 @@
   <ItemGroup>
     <ClCompile Include="BastAlbum.cpp" />
     <ClCompile Include="BiggestNumber.cpp" />
+    <ClCompile Include="BigNumberMake.cpp" />
     <ClCompile Include="Camouflage.cpp" />
     <ClCompile Include="Carpet.cpp" />
     <ClCompile Include="DiskController.cpp" />

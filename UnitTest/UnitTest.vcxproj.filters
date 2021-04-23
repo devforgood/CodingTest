@@ -83,6 +83,9 @@
     <ClCompile Include="MockTest.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
+    <ClCompile Include="BigNumberMake.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
