@@ -86,6 +86,9 @@
     <ClCompile Include="BigNumberMake.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
+    <ClCompile Include="WayToSchool.cpp">
+      <Filter>programmers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />

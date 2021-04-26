@@ -187,6 +187,7 @@
     <ClCompile Include="StockPrice.cpp" />
     <ClCompile Include="TargetNumber.cpp" />
     <ClCompile Include="UnitTest.cpp" />
+    <ClCompile Include="WayToSchool.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
