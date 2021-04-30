@@ -11,6 +11,12 @@
     <Filter Include="programmers\graph">
       <UniqueIdentifier>{879ef65a-75de-40d8-8cac-41d5cdaed7de}</UniqueIdentifier>
     </Filter>
+    <Filter Include="programmers\queue_stack">
+      <UniqueIdentifier>{e480561d-b86a-48be-839d-47f41dd0f60e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codility">
+      <UniqueIdentifier>{d5372723-7b8d-4273-9025-3ad05c37cb1c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BastAlbum.cpp">
@@ -97,6 +103,12 @@
     </ClCompile>
     <ClCompile Include="Rank.cpp">
       <Filter>programmers\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="printer.cpp">
+      <Filter>programmers\queue_stack</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryGap.cpp">
+      <Filter>codility</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
