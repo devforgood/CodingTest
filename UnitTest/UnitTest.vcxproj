@@ -182,6 +182,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Rank.cpp" />
+    <ClCompile Include="RoomCount.cpp" />
     <ClCompile Include="Sort.cpp" />
     <ClCompile Include="SteppingStone.cpp" />
     <ClCompile Include="StockPrice.cpp" />

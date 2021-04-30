@@ -8,6 +8,9 @@
     <Filter Include="programmers">
       <UniqueIdentifier>{cd35f50f-885f-4e39-9f2e-bd016dcc6d74}</UniqueIdentifier>
     </Filter>
+    <Filter Include="programmers\graph">
+      <UniqueIdentifier>{879ef65a-75de-40d8-8cac-41d5cdaed7de}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BastAlbum.cpp">
@@ -26,9 +29,6 @@
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="ExhaustiveSearch.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="FarthestNode.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="GymClothes.cpp">
@@ -68,9 +68,6 @@
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Rank.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
     <ClCompile Include="FunctionDevelop.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
@@ -91,6 +88,15 @@
     </ClCompile>
     <ClCompile Include="WordChange.cpp">
       <Filter>programmers</Filter>
+    </ClCompile>
+    <ClCompile Include="FarthestNode.cpp">
+      <Filter>programmers\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomCount.cpp">
+      <Filter>programmers\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Rank.cpp">
+      <Filter>programmers\graph</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
