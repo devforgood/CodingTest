@@ -162,6 +162,7 @@
     <ClCompile Include="BinaryGap.cpp" />
     <ClCompile Include="Camouflage.cpp" />
     <ClCompile Include="Carpet.cpp" />
+    <ClCompile Include="CyclicRotation.cpp" />
     <ClCompile Include="DiskController.cpp" />
     <ClCompile Include="DoubleEndedPriorityQueue.cpp" />
     <ClCompile Include="ExhaustiveSearch.cpp" />
