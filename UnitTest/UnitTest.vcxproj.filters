@@ -116,6 +116,9 @@
     <ClCompile Include="CyclicRotation.cpp">
       <Filter>codility\array</Filter>
     </ClCompile>
+    <ClCompile Include="FrogJmp.cpp">
+      <Filter>codility\array</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
