@@ -20,6 +20,12 @@
     <Filter Include="codility\array">
       <UniqueIdentifier>{8dd0832a-bef9-4906-a9f3-38113b1dc7e9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codility\TimeComplexity">
+      <UniqueIdentifier>{928f9377-82e2-4e04-8e67-a4010d29848f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codility\Sorting">
+      <UniqueIdentifier>{e6f6b6f9-d5b5-4d5b-9c69-1c1d77877f5c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BastAlbum.cpp">
@@ -117,7 +123,10 @@
       <Filter>codility\array</Filter>
     </ClCompile>
     <ClCompile Include="FrogJmp.cpp">
-      <Filter>codility\array</Filter>
+      <Filter>codility\TimeComplexity</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxProductOfThree.cpp">
+      <Filter>codility\Sorting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
