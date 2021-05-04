@@ -26,6 +26,9 @@
     <Filter Include="codility\Sorting">
       <UniqueIdentifier>{e6f6b6f9-d5b5-4d5b-9c69-1c1d77877f5c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codility\StackAndQueue">
+      <UniqueIdentifier>{13220694-44b0-4518-a284-2209898a5b8c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BastAlbum.cpp">
@@ -127,6 +130,9 @@
     </ClCompile>
     <ClCompile Include="MaxProductOfThree.cpp">
       <Filter>codility\Sorting</Filter>
+    </ClCompile>
+    <ClCompile Include="Brackets.cpp">
+      <Filter>codility\StackAndQueue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

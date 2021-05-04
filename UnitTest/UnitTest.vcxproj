@@ -160,6 +160,7 @@
     <ClCompile Include="BiggestNumber.cpp" />
     <ClCompile Include="BigNumberMake.cpp" />
     <ClCompile Include="BinaryGap.cpp" />
+    <ClCompile Include="Brackets.cpp" />
     <ClCompile Include="Camouflage.cpp" />
     <ClCompile Include="Carpet.cpp" />
     <ClCompile Include="CyclicRotation.cpp" />
