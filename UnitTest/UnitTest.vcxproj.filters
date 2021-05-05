@@ -32,6 +32,9 @@
     <Filter Include="codility\Leader">
       <UniqueIdentifier>{8e5a2a23-15b7-4113-92e2-4925ab1dcabd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codility\Greedy algorithms">
+      <UniqueIdentifier>{a015cb99-215e-4044-a45a-bcc96d66033c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BastAlbum.cpp">
@@ -139,6 +142,9 @@
     </ClCompile>
     <ClCompile Include="Dominator.cpp">
       <Filter>codility\Leader</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxNonoverlappingSegments.cpp">
+      <Filter>codility\Greedy algorithms</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
