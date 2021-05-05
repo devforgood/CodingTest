@@ -165,6 +165,7 @@
     <ClCompile Include="Carpet.cpp" />
     <ClCompile Include="CyclicRotation.cpp" />
     <ClCompile Include="DiskController.cpp" />
+    <ClCompile Include="Dominator.cpp" />
     <ClCompile Include="DoubleEndedPriorityQueue.cpp" />
     <ClCompile Include="ExhaustiveSearch.cpp" />
     <ClCompile Include="FarthestNode.cpp" />
