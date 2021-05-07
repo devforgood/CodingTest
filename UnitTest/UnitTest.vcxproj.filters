@@ -35,15 +35,15 @@
     <Filter Include="codility\Greedy algorithms">
       <UniqueIdentifier>{a015cb99-215e-4044-a45a-bcc96d66033c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="programmers\greedy">
+      <UniqueIdentifier>{9f49dcb5-7db5-48d9-801e-71becdecb7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="programmers\hash">
+      <UniqueIdentifier>{e6b7e834-c4c5-4033-b1fd-ebf303a5214f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="BastAlbum.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
     <ClCompile Include="BiggestNumber.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="Camouflage.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="Carpet.cpp">
@@ -55,16 +55,10 @@
     <ClCompile Include="ExhaustiveSearch.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
-    <ClCompile Include="GymClothes.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
     <ClCompile Include="Immigration.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="IntegerTriangle.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="Joystick.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="MoreSpicy.cpp">
@@ -102,9 +96,6 @@
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="MockTest.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="BigNumberMake.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="WayToSchool.cpp">
@@ -145,6 +136,21 @@
     </ClCompile>
     <ClCompile Include="MaxNonoverlappingSegments.cpp">
       <Filter>codility\Greedy algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="BigNumberMake.cpp">
+      <Filter>programmers\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="GymClothes.cpp">
+      <Filter>programmers\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="Joystick.cpp">
+      <Filter>programmers\greedy</Filter>
+    </ClCompile>
+    <ClCompile Include="BastAlbum.cpp">
+      <Filter>programmers\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Camouflage.cpp">
+      <Filter>programmers\hash</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
