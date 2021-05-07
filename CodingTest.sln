@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "beakjoon", "beakjoon", "{2F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basics math", "basics math", "{E089126E-CD6C-4F7E-BB79-BFEE7975C7E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "brute force", "brute force", "{7CA10C35-3461-4FB1-83C8-4642DC5BAE6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blackjack", "blackjack\blackjack.vcxproj", "{10E1D68D-85A1-4269-9DF3-12595557934A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -35,6 +39,14 @@ Global
 		{E04F050D-343D-43B8-BD1E-E33929A8063F}.Release|x64.Build.0 = Release|x64
 		{E04F050D-343D-43B8-BD1E-E33929A8063F}.Release|x86.ActiveCfg = Release|Win32
 		{E04F050D-343D-43B8-BD1E-E33929A8063F}.Release|x86.Build.0 = Release|Win32
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Debug|x64.ActiveCfg = Debug|x64
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Debug|x64.Build.0 = Debug|x64
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Debug|x86.ActiveCfg = Debug|Win32
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Debug|x86.Build.0 = Debug|Win32
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Release|x64.ActiveCfg = Release|x64
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Release|x64.Build.0 = Release|x64
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Release|x86.ActiveCfg = Release|Win32
+		{10E1D68D-85A1-4269-9DF3-12595557934A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E04F050D-343D-43B8-BD1E-E33929A8063F} = {E089126E-CD6C-4F7E-BB79-BFEE7975C7E4}
 		{E089126E-CD6C-4F7E-BB79-BFEE7975C7E4} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
+		{7CA10C35-3461-4FB1-83C8-4642DC5BAE6B} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
+		{10E1D68D-85A1-4269-9DF3-12595557934A} = {7CA10C35-3461-4FB1-83C8-4642DC5BAE6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
