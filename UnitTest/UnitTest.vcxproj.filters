@@ -41,6 +41,9 @@
     <Filter Include="programmers\hash">
       <UniqueIdentifier>{e6b7e834-c4c5-4033-b1fd-ebf303a5214f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="programmers\Binary search">
+      <UniqueIdentifier>{86d0f022-fbc3-4bc3-862b-548026b0cfba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BiggestNumber.cpp">
@@ -53,9 +56,6 @@
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="ExhaustiveSearch.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="Immigration.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="IntegerTriangle.cpp">
@@ -80,9 +80,6 @@
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="UnitTest.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="SteppingStone.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp" />
@@ -151,6 +148,12 @@
     </ClCompile>
     <ClCompile Include="Camouflage.cpp">
       <Filter>programmers\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="Immigration.cpp">
+      <Filter>programmers\Binary search</Filter>
+    </ClCompile>
+    <ClCompile Include="SteppingStone.cpp">
+      <Filter>programmers\Binary search</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
