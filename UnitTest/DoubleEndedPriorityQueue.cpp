@@ -30,6 +30,7 @@ namespace UnitTest
 
         vector<int> solution(vector<string> operations) {
             vector<int> answer;
+            // 정렬이된 자료 구조이고, 앞뒤 삭제가 가능한 자료구조
             set<int> queue;
 
             for (auto op : operations)
