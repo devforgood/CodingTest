@@ -195,6 +195,7 @@
     <ClCompile Include="SteppingStone.cpp" />
     <ClCompile Include="StockPrice.cpp" />
     <ClCompile Include="TargetNumber.cpp" />
+    <ClCompile Include="TravelPath.cpp" />
     <ClCompile Include="UnitTest.cpp" />
     <ClCompile Include="WayToSchool.cpp" />
     <ClCompile Include="WordChange.cpp" />

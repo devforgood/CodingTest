@@ -11,9 +11,6 @@
     <Filter Include="programmers\graph">
       <UniqueIdentifier>{879ef65a-75de-40d8-8cac-41d5cdaed7de}</UniqueIdentifier>
     </Filter>
-    <Filter Include="programmers\queue_stack">
-      <UniqueIdentifier>{e480561d-b86a-48be-839d-47f41dd0f60e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="codility">
       <UniqueIdentifier>{d5372723-7b8d-4273-9025-3ad05c37cb1c}</UniqueIdentifier>
     </Filter>
@@ -44,6 +41,12 @@
     <Filter Include="programmers\Binary search">
       <UniqueIdentifier>{86d0f022-fbc3-4bc3-862b-548026b0cfba}</UniqueIdentifier>
     </Filter>
+    <Filter Include="programmers\bfs_dfs">
+      <UniqueIdentifier>{a55639d6-1ac5-4905-bd2a-c0ef184ad62c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="programmers\queue_stack">
+      <UniqueIdentifier>{e480561d-b86a-48be-839d-47f41dd0f60e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BiggestNumber.cpp">
@@ -64,9 +67,6 @@
     <ClCompile Include="MoreSpicy.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
-    <ClCompile Include="Network.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
     <ClCompile Include="NExpression.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
@@ -74,9 +74,6 @@
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="StockPrice.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="TargetNumber.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="UnitTest.cpp">
@@ -96,9 +93,6 @@
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="WayToSchool.cpp">
-      <Filter>programmers</Filter>
-    </ClCompile>
-    <ClCompile Include="WordChange.cpp">
       <Filter>programmers</Filter>
     </ClCompile>
     <ClCompile Include="FarthestNode.cpp">
@@ -154,6 +148,18 @@
     </ClCompile>
     <ClCompile Include="SteppingStone.cpp">
       <Filter>programmers\Binary search</Filter>
+    </ClCompile>
+    <ClCompile Include="TravelPath.cpp">
+      <Filter>programmers\bfs_dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetNumber.cpp">
+      <Filter>programmers\bfs_dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>programmers\bfs_dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="WordChange.cpp">
+      <Filter>programmers\bfs_dfs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
