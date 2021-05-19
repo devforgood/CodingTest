@@ -1,129 +1,159 @@
-#include <stdio.h>
+// A C++ program to demonstrate common Binary Heap Operations
+#include<iostream>
+#include<climits>
+using namespace std;
 
-#define MAX_SIZE 15
+// Prototype of a utility function to swap two integers
+void swap(int* x, int* y);
 
-// returns the index of the parent node
-int parent(int i) {
-    return (i - 1) / 2;
+// A class for Min Heap
+class MinHeap
+{
+	int* harr; // pointer to array of elements in heap
+	int capacity; // maximum possible size of min heap
+	int heap_size; // Current number of elements in min heap
+public:
+	// Constructor
+	MinHeap(int capacity);
+
+	// to heapify a subtree with the root at given index
+	void MinHeapify(int);
+
+	int parent(int i) { return (i - 1) / 2; }
+
+	// to get index of left child of node at index i
+	int left(int i) { return (2 * i + 1); }
+
+	// to get index of right child of node at index i
+	int right(int i) { return (2 * i + 2); }
+
+	// to extract the root which is the minimum element
+	int extractMin();
+
+	// Decreases key value of key at index i to new_val
+	void decreaseKey(int i, int new_val);
+
+	// Returns the minimum key (key at root) from min heap
+	int getMin() { return harr[0]; }
+
+	// Deletes a key stored at index i
+	void deleteKey(int i);
+
+	// Inserts a new key 'k'
+	void insertKey(int k);
+};
+
+// Constructor: Builds a heap from a given array a[] of given size
+MinHeap::MinHeap(int cap)
+{
+	heap_size = 0;
+	capacity = cap;
+	harr = new int[cap];
 }
 
-// return the index of the left child 
-int left_child(int i) {
-    return 2 * i + 1;
+// Inserts a new key 'k'
+void MinHeap::insertKey(int k)
+{
+	if (heap_size == capacity)
+	{
+		cout << "\nOverflow: Could not insertKey\n";
+		return;
+	}
+
+	// First insert the new key at the end
+	heap_size++;
+	int i = heap_size - 1;
+	harr[i] = k;
+
+	// Fix the min heap property if it is violated
+	while (i != 0 && harr[parent(i)] > harr[i])
+	{
+		swap(&harr[i], &harr[parent(i)]);
+		i = parent(i);
+	}
 }
 
-// return the index of the right child 
-int right_child(int i) {
-    return 2 * i + 2;
+// Decreases value of key at index 'i' to new_val. It is assumed that
+// new_val is smaller than harr[i].
+void MinHeap::decreaseKey(int i, int new_val)
+{
+	harr[i] = new_val;
+	while (i != 0 && harr[parent(i)] > harr[i])
+	{
+		swap(&harr[i], &harr[parent(i)]);
+		i = parent(i);
+	}
 }
 
-void swap(int* x, int* y) {
-    int temp = *x;
-    *x = *y;
-    *y = temp;
-}
+// Method to remove minimum element (or root) from min heap
+int MinHeap::extractMin()
+{
+	if (heap_size <= 0)
+		return INT_MAX;
+	if (heap_size == 1)
+	{
+		heap_size--;
+		return harr[0];
+	}
 
-// insert the item at the appropriate position
-void insert(int a[], int data, int* n) {
-    if (*n >= MAX_SIZE) {
-        printf("%s\n", "The heap is full. Cannot insert");
-        return;
-    }
-    // first insert the time at the last position of the array 
-    // and move it up
-    a[*n] = data;
-    *n = *n + 1;
+	// Store the minimum value, and remove it from heap
+	int root = harr[0];
+	harr[0] = harr[heap_size - 1];
+	heap_size--;
+	MinHeapify(0);
 
-
-    // move up until the heap property satisfies
-    int i = *n - 1;
-    while (i != 0 && a[parent(i)] < a[i]) {
-        swap(&a[parent(i)], &a[i]);
-        i = parent(i);
-    }
-}
-
-// moves the item at position i of array a
-// into its appropriate position
-void max_heapify(int a[], int i, int n) {
-    // find left child node
-    int left = left_child(i);
-
-    // find right child node
-    int right = right_child(i);
-
-    // find the largest among 3 nodes
-    int largest = i;
-
-    // check if the left node is larger than the current node
-    if (left <= n && a[left] > a[largest]) {
-        largest = left;
-    }
-
-    // check if the right node is larger than the current node
-    if (right <= n && a[right] > a[largest]) {
-        largest = right;
-    }
-
-    // swap the largest node with the current node 
-    // and repeat this process until the current node is larger than 
-    // the right and the left node
-    if (largest != i) {
-        int temp = a[i];
-        a[i] = a[largest];
-        a[largest] = temp;
-        max_heapify(a, largest, n);
-    }
-
-}
-
-// converts an array into a heap
-void build_max_heap(int a[], int n) {
-    int i;
-    for (i = n / 2; i >= 0; i--) {
-        max_heapify(a, i, n);
-    }
-}
-
-// returns the  maximum item of the heap
-int get_max(int a[]) {
-    return a[0];
-}
-
-// deletes the max item and return
-int extract_max(int a[], int* n) {
-    int max_item = a[0];
-
-    // replace the first item with the last item
-    a[0] = a[*n - 1];
-    *n = *n - 1;
-
-    // maintain the heap property by heapifying the 
-    // first item
-    max_heapify(a, 0, *n);
-    return max_item;
-}
-
-// prints the heap
-void print_heap(int a[], int n) {
-    int i;
-    for (i = 0; i < n; i++) {
-        printf("%d\n", a[i]);
-    }
-    printf("\n");
+	return root;
 }
 
 
-int main() {
-    int n = 10;
-    int a[MAX_SIZE];
-    a[1] = 10; a[2] = 12; a[3] = 9; a[4] = 78; a[5] = 33; a[6] = 21; a[7] = 35; a[8] = 29; a[9] = 5; a[10] = 66;
-    build_max_heap(a, n);
-    insert(a, 55, &n);
-    insert(a, 56, &n);
-    insert(a, 57, &n);
-    insert(a, 58, &n);
-    insert(a, 100, &n);
-    print_heap(a, n);
-    return 0;
+// This function deletes key at index i. It first reduced value to minus
+// infinite, then calls extractMin()
+void MinHeap::deleteKey(int i)
+{
+	decreaseKey(i, INT_MIN);
+	extractMin();
+}
+
+// A recursive method to heapify a subtree with the root at given index
+// This method assumes that the subtrees are already heapified
+void MinHeap::MinHeapify(int i)
+{
+	int l = left(i);
+	int r = right(i);
+	int smallest = i;
+	if (l < heap_size && harr[l] < harr[i])
+		smallest = l;
+	if (r < heap_size && harr[r] < harr[smallest])
+		smallest = r;
+	if (smallest != i)
+	{
+		swap(&harr[i], &harr[smallest]);
+		MinHeapify(smallest);
+	}
+}
+
+// A utility function to swap two elements
+void swap(int* x, int* y)
+{
+	int temp = *x;
+	*x = *y;
+	*y = temp;
+}
+
+// Driver program to test above functions
+int main()
+{
+	MinHeap h(11);
+	h.insertKey(3);
+	h.insertKey(2);
+	h.deleteKey(1);
+	h.insertKey(15);
+	h.insertKey(5);
+	h.insertKey(4);
+	h.insertKey(45);
+	cout << h.extractMin() << " ";
+	cout << h.getMin() << " ";
+	h.decreaseKey(2, 1);
+	cout << h.getMin();
+	return 0;
 }
