@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TravelingSalesmanProblem", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sort", "Sort\Sort.vcxproj", "{BB9F7DFD-2C6F-41F1-A1B7-9D491EB39E70}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructure", "DataStructure\DataStructure.vcxproj", "{DBC7A6B1-2666-4803-9858-12F18BB2C27F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -113,6 +115,14 @@ Global
 		{BB9F7DFD-2C6F-41F1-A1B7-9D491EB39E70}.Release|x64.Build.0 = Release|x64
 		{BB9F7DFD-2C6F-41F1-A1B7-9D491EB39E70}.Release|x86.ActiveCfg = Release|Win32
 		{BB9F7DFD-2C6F-41F1-A1B7-9D491EB39E70}.Release|x86.Build.0 = Release|Win32
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Debug|x64.ActiveCfg = Debug|x64
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Debug|x64.Build.0 = Debug|x64
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Debug|x86.ActiveCfg = Debug|Win32
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Debug|x86.Build.0 = Debug|Win32
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Release|x64.ActiveCfg = Release|x64
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Release|x64.Build.0 = Release|x64
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Release|x86.ActiveCfg = Release|Win32
+		{DBC7A6B1-2666-4803-9858-12F18BB2C27F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
