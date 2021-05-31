@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CroatiaAlphabet", "CroatiaA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GroupWordChecker", "GroupWordChecker\GroupWordChecker.vcxproj", "{99D92694-C68F-43D4-8E13-BE86116FB4D6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hive", "hive\hive.vcxproj", "{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -257,6 +259,14 @@ Global
 		{99D92694-C68F-43D4-8E13-BE86116FB4D6}.Release|x64.Build.0 = Release|x64
 		{99D92694-C68F-43D4-8E13-BE86116FB4D6}.Release|x86.ActiveCfg = Release|Win32
 		{99D92694-C68F-43D4-8E13-BE86116FB4D6}.Release|x86.Build.0 = Release|Win32
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Debug|x64.ActiveCfg = Debug|x64
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Debug|x64.Build.0 = Debug|x64
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Debug|x86.ActiveCfg = Debug|Win32
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Debug|x86.Build.0 = Debug|Win32
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Release|x64.ActiveCfg = Release|x64
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Release|x64.Build.0 = Release|x64
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Release|x86.ActiveCfg = Release|Win32
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -289,6 +299,7 @@ Global
 		{0B7FF940-E3AD-468B-884E-121C8BC54434} = {CCDA0DA0-908D-4C2B-9F2C-53BB56C91C51}
 		{771345BF-CE98-4202-ADF6-68242841F2D0} = {CCDA0DA0-908D-4C2B-9F2C-53BB56C91C51}
 		{99D92694-C68F-43D4-8E13-BE86116FB4D6} = {CCDA0DA0-908D-4C2B-9F2C-53BB56C91C51}
+		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260} = {E089126E-CD6C-4F7E-BB79-BFEE7975C7E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
