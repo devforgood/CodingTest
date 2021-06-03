@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hive", "hive\hive.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FractionSearch", "FractionSearch\FractionSearch.vcxproj", "{EF9DD8C7-9732-428E-8C7F-D11CCC0DDD28}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SnailWantsToGoUp", "SnailWantsToGoUp\SnailWantsToGoUp.vcxproj", "{384C1CBE-C433-441A-9966-589EA08960D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -277,6 +279,14 @@ Global
 		{EF9DD8C7-9732-428E-8C7F-D11CCC0DDD28}.Release|x64.Build.0 = Release|x64
 		{EF9DD8C7-9732-428E-8C7F-D11CCC0DDD28}.Release|x86.ActiveCfg = Release|Win32
 		{EF9DD8C7-9732-428E-8C7F-D11CCC0DDD28}.Release|x86.Build.0 = Release|Win32
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Debug|x64.ActiveCfg = Debug|x64
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Debug|x64.Build.0 = Debug|x64
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Debug|x86.ActiveCfg = Debug|Win32
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Debug|x86.Build.0 = Debug|Win32
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Release|x64.ActiveCfg = Release|x64
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Release|x64.Build.0 = Release|x64
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Release|x86.ActiveCfg = Release|Win32
+		{384C1CBE-C433-441A-9966-589EA08960D9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -311,6 +321,7 @@ Global
 		{99D92694-C68F-43D4-8E13-BE86116FB4D6} = {CCDA0DA0-908D-4C2B-9F2C-53BB56C91C51}
 		{2A072EE4-2A5C-48D8-A9EF-3D6D6AF7E260} = {E089126E-CD6C-4F7E-BB79-BFEE7975C7E4}
 		{EF9DD8C7-9732-428E-8C7F-D11CCC0DDD28} = {E089126E-CD6C-4F7E-BB79-BFEE7975C7E4}
+		{384C1CBE-C433-441A-9966-589EA08960D9} = {E089126E-CD6C-4F7E-BB79-BFEE7975C7E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
