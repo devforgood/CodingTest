@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeSearch", "PrimeSearch\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prime", "Prime\Prime.vcxproj", "{CBD74C70-E687-41DF-8C93-BD82ED9AF265}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeFactoriztion", "PrimeFactoriztion\PrimeFactoriztion.vcxproj", "{CCBA6F10-07CC-49CB-B516-C150964D7978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -349,6 +351,14 @@ Global
 		{CBD74C70-E687-41DF-8C93-BD82ED9AF265}.Release|x64.Build.0 = Release|x64
 		{CBD74C70-E687-41DF-8C93-BD82ED9AF265}.Release|x86.ActiveCfg = Release|Win32
 		{CBD74C70-E687-41DF-8C93-BD82ED9AF265}.Release|x86.Build.0 = Release|Win32
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Debug|x64.ActiveCfg = Debug|x64
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Debug|x64.Build.0 = Debug|x64
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Debug|x86.Build.0 = Debug|Win32
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Release|x64.ActiveCfg = Release|x64
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Release|x64.Build.0 = Release|x64
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Release|x86.ActiveCfg = Release|Win32
+		{CCBA6F10-07CC-49CB-B516-C150964D7978}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -391,6 +401,7 @@ Global
 		{E8E25FCF-22C5-4378-9979-9C8C2F4C335E} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
 		{0F7143CE-BD3C-41EE-940A-58E6EBA2C503} = {E8E25FCF-22C5-4378-9979-9C8C2F4C335E}
 		{CBD74C70-E687-41DF-8C93-BD82ED9AF265} = {E8E25FCF-22C5-4378-9979-9C8C2F4C335E}
+		{CCBA6F10-07CC-49CB-B516-C150964D7978} = {E8E25FCF-22C5-4378-9979-9C8C2F4C335E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
