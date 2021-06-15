@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrimeFind", "PrimeFind\Prim
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bertrand", "Bertrand\Bertrand.vcxproj", "{9145A064-2409-487B-BBDC-3B2ADA9628C8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaxiCabGeometry", "TaxiCabGeometry\TaxiCabGeometry.vcxproj", "{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -379,6 +381,14 @@ Global
 		{9145A064-2409-487B-BBDC-3B2ADA9628C8}.Release|x64.Build.0 = Release|x64
 		{9145A064-2409-487B-BBDC-3B2ADA9628C8}.Release|x86.ActiveCfg = Release|Win32
 		{9145A064-2409-487B-BBDC-3B2ADA9628C8}.Release|x86.Build.0 = Release|Win32
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Debug|x64.ActiveCfg = Debug|x64
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Debug|x64.Build.0 = Debug|x64
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Debug|x86.ActiveCfg = Debug|Win32
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Debug|x86.Build.0 = Debug|Win32
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Release|x64.ActiveCfg = Release|x64
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Release|x64.Build.0 = Release|x64
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Release|x86.ActiveCfg = Release|Win32
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -424,6 +434,7 @@ Global
 		{CCBA6F10-07CC-49CB-B516-C150964D7978} = {E8E25FCF-22C5-4378-9979-9C8C2F4C335E}
 		{D4FE92D3-786F-4B7E-BD69-FDA519B3893E} = {E8E25FCF-22C5-4378-9979-9C8C2F4C335E}
 		{9145A064-2409-487B-BBDC-3B2ADA9628C8} = {E8E25FCF-22C5-4378-9979-9C8C2F4C335E}
+		{4D6547A1-BE8B-4ACB-ABAF-3611CEFE2430} = {E8E25FCF-22C5-4378-9979-9C8C2F4C335E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
