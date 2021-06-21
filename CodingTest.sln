@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StarMark", "StarMark\StarMa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HanoiTower", "HanoiTower\HanoiTower.vcxproj", "{B87710AC-0D53-4B45-A89C-D0C753D4C5F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DisassembleSum", "DisassembleSum\DisassembleSum.vcxproj", "{69578B12-110D-4190-AEA3-A652F0B1D643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -481,6 +483,14 @@ Global
 		{B87710AC-0D53-4B45-A89C-D0C753D4C5F1}.Release|x64.Build.0 = Release|x64
 		{B87710AC-0D53-4B45-A89C-D0C753D4C5F1}.Release|x86.ActiveCfg = Release|Win32
 		{B87710AC-0D53-4B45-A89C-D0C753D4C5F1}.Release|x86.Build.0 = Release|Win32
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Debug|x64.ActiveCfg = Debug|x64
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Debug|x64.Build.0 = Debug|x64
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Debug|x86.ActiveCfg = Debug|Win32
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Debug|x86.Build.0 = Debug|Win32
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Release|x64.ActiveCfg = Release|x64
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Release|x64.Build.0 = Release|x64
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Release|x86.ActiveCfg = Release|Win32
+		{69578B12-110D-4190-AEA3-A652F0B1D643}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -537,6 +547,7 @@ Global
 		{068417C2-A8F8-4896-BDA3-3D23EA4CDDAF} = {15373386-0EE5-48F4-9EE2-9A52D8835B86}
 		{5C0DC1B3-7881-4B1A-8860-E05F6F1C4A9F} = {15373386-0EE5-48F4-9EE2-9A52D8835B86}
 		{B87710AC-0D53-4B45-A89C-D0C753D4C5F1} = {15373386-0EE5-48F4-9EE2-9A52D8835B86}
+		{69578B12-110D-4190-AEA3-A652F0B1D643} = {7CA10C35-3461-4FB1-83C8-4642DC5BAE6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
