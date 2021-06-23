@@ -119,6 +119,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "body", "body\body.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chessboard", "chessboard\chessboard.vcxproj", "{4DD8F8BE-522A-4E1A-8C04-61B0412DD551}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MovieDirectorShawm", "MovieDirectorShawm\MovieDirectorShawm.vcxproj", "{A4022F42-DCE0-4A70-B004-C937CE580402}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -511,6 +513,14 @@ Global
 		{4DD8F8BE-522A-4E1A-8C04-61B0412DD551}.Release|x64.Build.0 = Release|x64
 		{4DD8F8BE-522A-4E1A-8C04-61B0412DD551}.Release|x86.ActiveCfg = Release|Win32
 		{4DD8F8BE-522A-4E1A-8C04-61B0412DD551}.Release|x86.Build.0 = Release|Win32
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Debug|x64.ActiveCfg = Debug|x64
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Debug|x64.Build.0 = Debug|x64
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Debug|x86.Build.0 = Debug|Win32
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Release|x64.ActiveCfg = Release|x64
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Release|x64.Build.0 = Release|x64
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Release|x86.ActiveCfg = Release|Win32
+		{A4022F42-DCE0-4A70-B004-C937CE580402}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -570,6 +580,7 @@ Global
 		{69578B12-110D-4190-AEA3-A652F0B1D643} = {7CA10C35-3461-4FB1-83C8-4642DC5BAE6B}
 		{88ECA7F0-F27E-43A8-A8AD-840AC654ADE2} = {7CA10C35-3461-4FB1-83C8-4642DC5BAE6B}
 		{4DD8F8BE-522A-4E1A-8C04-61B0412DD551} = {7CA10C35-3461-4FB1-83C8-4642DC5BAE6B}
+		{A4022F42-DCE0-4A70-B004-C937CE580402} = {7CA10C35-3461-4FB1-83C8-4642DC5BAE6B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
