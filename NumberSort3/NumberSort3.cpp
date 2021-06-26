@@ -1,6 +1,7 @@
-﻿#include <iostream>
+﻿#define _CRT_SECURE_NO_WARNINGS
+
+#include <iostream>
 #include <vector>
-#define _CRT_SECURE_NO_WARNINGS
 #include <algorithm>
 
 using namespace std;
