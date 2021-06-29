@@ -11,24 +11,24 @@
 
 using namespace std;
 
-void backtracking(int n, int m, vector<int> combination, int cur)
+void backtracking(int n, int m, vector<int> permutation, int cur)
 {
-	combination.push_back(cur);
+	permutation.push_back(cur);
 
-	if (combination.size() == m)
+	if (permutation.size() == m)
 	{
-		for (int i = 0; i < combination.size(); ++i)
-			printf("%d ", combination[i]);
+		for (int i = 0; i < permutation.size(); ++i)
+			printf("%d ", permutation[i]);
 		printf("\n");
 		return;
 	}
 
 	for (int i = 1; i <= n; ++i)
 	{
-		if (std::find(combination.begin(), combination.end(), i) != combination.end())
+		if (std::find(permutation.begin(), permutation.end(), i) != permutation.end())
 			continue;
 
-		backtracking(n, m, combination, i);
+		backtracking(n, m, permutation, i);
 	}
 
 }
@@ -37,8 +37,8 @@ int main()
 {
 	int n, m;
 	scanf("%d %d", &n, &m);
-	vector<int> combination;
+	vector<int> permutation;
 	for(int i=1;i<=n;++i)
-		backtracking(n, m, combination, i);
+		backtracking(n, m, permutation, i);
 }
 
