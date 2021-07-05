@@ -77,6 +77,10 @@ bool sudoku(int x, int y)
 	}
 	else
 	{
+		if(x==8 && y==8)
+            		if(check(x, y))
+                		return true;
+		
 		if (sudoku(y != 8 ? x : x + 1, y != 8 ? y + 1 : 0))
 			return true;
 	}
