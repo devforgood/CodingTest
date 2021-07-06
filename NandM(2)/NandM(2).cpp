@@ -34,10 +34,30 @@ void func(int cnt)
 		visited[v[i]] = false;
 }
 
+void func2(int num, int cnt)
+{
+	if (cnt == M)
+	{
+		for (int i = 0; i < M; i++)
+			cout << arr[i] << " ";
+		cout << "\n";
+		return;
+	}
+
+	for (int i = num; i <= N; i++)
+		if (!visited[i])
+		{
+			visited[i] = true;
+			arr[cnt] = i;
+			func2(i+1, cnt + 1);
+			visited[i] = false;
+		}
+}
+
 int main(void)
 {
 	cin >> N >> M;
 
-	func(0);
+	func2(1, 0);
 	return 0;
 }
