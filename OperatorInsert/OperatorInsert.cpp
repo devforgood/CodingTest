@@ -6,7 +6,7 @@ using namespace std;
 int n;
 vector<int> nums;
 vector<int> operators;
-vector<int> visted;
+vector<int> visited;
 int min_value = 1000000000;
 int max_value = -1000000000;
 
@@ -23,10 +23,10 @@ void func(int cnt, int value)
 
 	for (int i = 0; i < n - 1; ++i)
 	{
-		if (visted[i] != 0)
+		if (visited[i] != 0)
 			continue;
 
-		visted[i] = 1;
+		visited[i] = 1;
 		switch (operators[i])
 		{
 		case 0:
@@ -42,7 +42,7 @@ void func(int cnt, int value)
 			func(cnt + 1, value / nums[cnt + 1]);
 			break;
 		}
-		visted[i] = 0;
+		visited[i] = 0;
 	}
 }
 
@@ -51,8 +51,8 @@ int main()
 	int v;
 
 	cin >> n;
-	visted.resize(n - 1);
-	std::fill(visted.begin(), visted.end(), 0);
+	visited.resize(n - 1);
+	std::fill(visited.begin(), visited.end(), 0);
 	for (int i = 0; i < n; ++i)
 	{
 		cin >> v;
