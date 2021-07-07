@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "two pointer", "two pointer"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoNumberSum", "TwoNumberSum\TwoNumberSum.vcxproj", "{0282FEEC-86D4-4CB1-AC25-C9D5C62E98E5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dynamic programming", "dynamic programming", "{84503FD4-5D2E-4FC1-AE12-0764F2EC9E92}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dynamic programming 3", "dynamic programming 3", "{84503FD4-5D2E-4FC1-AE12-0764F2EC9E92}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "set", "set\set.vcxproj", "{F1A02474-7613-4E75-8755-1E739C9B193C}"
 EndProject
@@ -158,6 +158,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OperatorInsert", "OperatorInsert\OperatorInsert.vcxproj", "{49EC2325-CAE4-483F-972F-F031FD6E2792}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StartLink", "StartLink\StartLink.vcxproj", "{A238F220-8C46-452B-8772-EAD4620C382D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dynamic programming 1", "dynamic programming 1", "{3F32CD56-8809-4355-8FB6-34A76B1A3404}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FibonacciFunction", "FibonacciFunction\FibonacciFunction.vcxproj", "{E1677B05-ACDC-47F2-A59E-0EB8C1972120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -695,6 +699,14 @@ Global
 		{A238F220-8C46-452B-8772-EAD4620C382D}.Release|x64.Build.0 = Release|x64
 		{A238F220-8C46-452B-8772-EAD4620C382D}.Release|x86.ActiveCfg = Release|Win32
 		{A238F220-8C46-452B-8772-EAD4620C382D}.Release|x86.Build.0 = Release|Win32
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Debug|x64.ActiveCfg = Debug|x64
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Debug|x64.Build.0 = Debug|x64
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Debug|x86.Build.0 = Debug|Win32
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Release|x64.ActiveCfg = Release|x64
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Release|x64.Build.0 = Release|x64
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Release|x86.ActiveCfg = Release|Win32
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -774,6 +786,8 @@ Global
 		{65CC841F-E7A6-4BAC-9D84-557B6F66D7C3} = {D7C2D034-EECE-4C51-BAD4-3548B28D3510}
 		{49EC2325-CAE4-483F-972F-F031FD6E2792} = {D7C2D034-EECE-4C51-BAD4-3548B28D3510}
 		{A238F220-8C46-452B-8772-EAD4620C382D} = {D7C2D034-EECE-4C51-BAD4-3548B28D3510}
+		{3F32CD56-8809-4355-8FB6-34A76B1A3404} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
+		{E1677B05-ACDC-47F2-A59E-0EB8C1972120} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
