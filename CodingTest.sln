@@ -171,6 +171,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PadovanSequence", "PadovanS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGBdistance", "RGBdistance\RGBdistance.vcxproj", "{399313E3-C390-4763-9A3F-80569976E57D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntegerTriangle", "IntegerTriangle\IntegerTriangle.vcxproj", "{23C12EA0-048E-431A-9244-3DA1841D544E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -747,6 +749,14 @@ Global
 		{399313E3-C390-4763-9A3F-80569976E57D}.Release|x64.Build.0 = Release|x64
 		{399313E3-C390-4763-9A3F-80569976E57D}.Release|x86.ActiveCfg = Release|Win32
 		{399313E3-C390-4763-9A3F-80569976E57D}.Release|x86.Build.0 = Release|Win32
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Debug|x64.ActiveCfg = Debug|x64
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Debug|x64.Build.0 = Debug|x64
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Debug|x86.ActiveCfg = Debug|Win32
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Debug|x86.Build.0 = Debug|Win32
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Release|x64.ActiveCfg = Release|x64
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Release|x64.Build.0 = Release|x64
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Release|x86.ActiveCfg = Release|Win32
+		{23C12EA0-048E-431A-9244-3DA1841D544E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -832,6 +842,7 @@ Global
 		{F658152E-1F3B-415F-BDCF-FD886F2C7462} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 		{A5AFD7B4-92FD-455C-8538-C25F5855408E} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 		{399313E3-C390-4763-9A3F-80569976E57D} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
+		{23C12EA0-048E-431A-9244-3DA1841D544E} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
