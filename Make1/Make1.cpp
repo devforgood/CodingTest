@@ -40,7 +40,7 @@ int main()
 	//	func(i, 0);
 
 
-	// 탑다운 방식으로 간단하게 풀이가 가능
+	// bottom up 방식으로 간단하게 풀이가 가능
 	arr[1] = 0;
 	for (int i = 2; i <= n; i++) {
 		arr[i] = arr[i - 1] + 1;
