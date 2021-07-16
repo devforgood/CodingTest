@@ -22,6 +22,7 @@ int main()
     for (int i = 3; i <= n; ++i)
     {
         dp[i] = max(dp[i - 2], dp[i - 3] + arr[i - 1]) + arr[i];
+        // 2회 이상 건너뛰는 경우
         dp[i] = max(dp[i - 1], dp[i]);
 
     }
