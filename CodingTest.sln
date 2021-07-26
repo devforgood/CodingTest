@@ -187,6 +187,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestBitonicSubsequence",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ElectricityLine", "ElectricityLine\ElectricityLine.vcxproj", "{26864855-27D3-4C9F-A0EE-FAA0DD58933B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.vcxproj", "{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -827,6 +829,14 @@ Global
 		{26864855-27D3-4C9F-A0EE-FAA0DD58933B}.Release|x64.Build.0 = Release|x64
 		{26864855-27D3-4C9F-A0EE-FAA0DD58933B}.Release|x86.ActiveCfg = Release|Win32
 		{26864855-27D3-4C9F-A0EE-FAA0DD58933B}.Release|x86.Build.0 = Release|Win32
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Debug|x64.ActiveCfg = Debug|x64
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Debug|x64.Build.0 = Debug|x64
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Debug|x86.Build.0 = Debug|Win32
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Release|x64.ActiveCfg = Release|x64
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Release|x64.Build.0 = Release|x64
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Release|x86.ActiveCfg = Release|Win32
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -920,6 +930,7 @@ Global
 		{083C6947-A6A0-4C6D-B47F-5E0CBEB2EEDC} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 		{E559D68A-B21D-4C99-80A5-24C27E4C043E} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 		{26864855-27D3-4C9F-A0EE-FAA0DD58933B} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
+		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
