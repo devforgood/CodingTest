@@ -189,6 +189,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ElectricityLine", "Electric
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.vcxproj", "{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BiggestSequenceSum", "BiggestSequenceSum\BiggestSequenceSum.vcxproj", "{13EDD33F-9C57-4237-B39F-590C28B05734}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -837,6 +839,14 @@ Global
 		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Release|x64.Build.0 = Release|x64
 		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Release|x86.ActiveCfg = Release|Win32
 		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2}.Release|x86.Build.0 = Release|Win32
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Debug|x64.ActiveCfg = Debug|x64
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Debug|x64.Build.0 = Debug|x64
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Debug|x86.ActiveCfg = Debug|Win32
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Debug|x86.Build.0 = Debug|Win32
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Release|x64.ActiveCfg = Release|x64
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Release|x64.Build.0 = Release|x64
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Release|x86.ActiveCfg = Release|Win32
+		{13EDD33F-9C57-4237-B39F-590C28B05734}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -931,6 +941,7 @@ Global
 		{E559D68A-B21D-4C99-80A5-24C27E4C043E} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 		{26864855-27D3-4C9F-A0EE-FAA0DD58933B} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 		{C452E8D3-3539-491E-B1CD-C0C4656C8EC2} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
+		{13EDD33F-9C57-4237-B39F-590C28B05734} = {3F32CD56-8809-4355-8FB6-34A76B1A3404}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
