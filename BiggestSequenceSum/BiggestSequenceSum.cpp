@@ -1,15 +1,17 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
+#include <algorithm>
 
 using namespace std;
+
+int arr[100000] = { 0, };
+int dp[100000] = { 0, };
 
 int main()
 {
     int n;
-    int arr[1000] = { 0, };
-    int dp[1000] = { 0, };
-
+  
     scanf("%d", &n);
 
     for (int i = 0; i < n; ++i)
@@ -17,16 +19,16 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    int max_value = 0;
+    int max_value = -9e8;
     for (int i = 0; i < n; ++i)
     {
-        dp[i] = 1;
-        for (int j = 0; j < n; ++j)
-        {
-            if (arr[i] > arr[j] && dp[i] < dp[j] + 1)
-                dp[i] = dp[j] + 1;
-        }
+        dp[i] = arr[i];
 
+        if (i > 0)
+        {
+            dp[i] = max({ dp[i],dp[i - 1] + dp[i] });
+        }
+  
         if (max_value < dp[i])
             max_value = dp[i];
     }
