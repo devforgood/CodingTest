@@ -217,6 +217,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ring", "Ring\Ring.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinomialCoefficient", "BinomialCoefficient\BinomialCoefficient.vcxproj", "{379AEFD3-99BB-45CC-A739-7230C26496E9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinomialCoefficient2", "BinomialCoefficient2\BinomialCoefficient2.vcxproj", "{D54F149A-689E-4C0E-9945-C32573FEEFF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -969,6 +971,14 @@ Global
 		{379AEFD3-99BB-45CC-A739-7230C26496E9}.Release|x64.Build.0 = Release|x64
 		{379AEFD3-99BB-45CC-A739-7230C26496E9}.Release|x86.ActiveCfg = Release|Win32
 		{379AEFD3-99BB-45CC-A739-7230C26496E9}.Release|x86.Build.0 = Release|Win32
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Debug|x64.ActiveCfg = Debug|x64
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Debug|x64.Build.0 = Debug|x64
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Debug|x86.ActiveCfg = Debug|Win32
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Debug|x86.Build.0 = Debug|Win32
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Release|x64.ActiveCfg = Release|x64
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Release|x64.Build.0 = Release|x64
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Release|x86.ActiveCfg = Release|Win32
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1077,6 +1087,7 @@ Global
 		{9FCFBDB2-D616-471F-A69D-41F52038F499} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
 		{62289210-6B98-4AE4-974C-5BFBEB2D1647} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
 		{379AEFD3-99BB-45CC-A739-7230C26496E9} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
+		{D54F149A-689E-4C0E-9945-C32573FEEFF9} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
