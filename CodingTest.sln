@@ -223,6 +223,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BridgeBuild", "BridgeBuild\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FashionKing", "FashionKing\FashionKing.vcxproj", "{79AD810C-2EA4-4E45-BB19-EB5E1B6FD36A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FactorialZeroCount", "FactorialZeroCount\FactorialZeroCount.vcxproj", "{D03ABF10-7190-4F10-9652-FF0171AA3073}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -999,6 +1001,14 @@ Global
 		{79AD810C-2EA4-4E45-BB19-EB5E1B6FD36A}.Release|x64.Build.0 = Release|x64
 		{79AD810C-2EA4-4E45-BB19-EB5E1B6FD36A}.Release|x86.ActiveCfg = Release|Win32
 		{79AD810C-2EA4-4E45-BB19-EB5E1B6FD36A}.Release|x86.Build.0 = Release|Win32
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Debug|x64.ActiveCfg = Debug|x64
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Debug|x64.Build.0 = Debug|x64
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Debug|x86.ActiveCfg = Debug|Win32
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Debug|x86.Build.0 = Debug|Win32
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Release|x64.ActiveCfg = Release|x64
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Release|x64.Build.0 = Release|x64
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Release|x86.ActiveCfg = Release|Win32
+		{D03ABF10-7190-4F10-9652-FF0171AA3073}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1110,6 +1120,7 @@ Global
 		{D54F149A-689E-4C0E-9945-C32573FEEFF9} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
 		{A2D9B251-C5C4-4F44-8870-4C5BBE168B05} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
 		{79AD810C-2EA4-4E45-BB19-EB5E1B6FD36A} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
+		{D03ABF10-7190-4F10-9652-FF0171AA3073} = {75C1A1ED-33CC-4125-9AE6-41730A742C05}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
