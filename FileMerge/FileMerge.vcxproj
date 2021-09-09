@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e6b6f1a6-ccba-4945-899b-222288b3764b}</ProjectGuid>
-    <RootNamespace>ExcitingFunctionExecute</RootNamespace>
+    <ProjectGuid>{06413fe8-4fd0-4e23-9c9b-7eeb6452be8d}</ProjectGuid>
+    <RootNamespace>FileMerge</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ExcitingFunctionExecute.cpp" />
+    <ClCompile Include="FileMerge.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
