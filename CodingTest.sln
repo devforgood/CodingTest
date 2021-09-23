@@ -257,6 +257,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DownhillRoad", "DownhillRoa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "palindrome", "palindrome\palindrome.vcxproj", "{DDDC3ABE-CF92-4AB0-92ED-7A6A8CD736AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PanBalance", "PanBalance\PanBalance.vcxproj", "{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1137,6 +1139,14 @@ Global
 		{DDDC3ABE-CF92-4AB0-92ED-7A6A8CD736AB}.Release|x64.Build.0 = Release|x64
 		{DDDC3ABE-CF92-4AB0-92ED-7A6A8CD736AB}.Release|x86.ActiveCfg = Release|Win32
 		{DDDC3ABE-CF92-4AB0-92ED-7A6A8CD736AB}.Release|x86.Build.0 = Release|Win32
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Debug|x64.ActiveCfg = Debug|x64
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Debug|x64.Build.0 = Debug|x64
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Debug|x86.Build.0 = Debug|Win32
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Release|x64.ActiveCfg = Release|x64
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Release|x64.Build.0 = Release|x64
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Release|x86.ActiveCfg = Release|Win32
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1265,6 +1275,7 @@ Global
 		{D806C042-0AFC-441A-9257-C2DB4AF11596} = {A75A17B8-2A25-4FDA-B4FC-20E6C286E9D4}
 		{8E50B314-D369-48B9-A5BB-B7DEB5323082} = {463D1B3D-8039-4436-90EC-9159DB538731}
 		{DDDC3ABE-CF92-4AB0-92ED-7A6A8CD736AB} = {463D1B3D-8039-4436-90EC-9159DB538731}
+		{63675CEC-D13B-4956-8EF2-84FAEE8E57AE} = {463D1B3D-8039-4436-90EC-9159DB538731}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
