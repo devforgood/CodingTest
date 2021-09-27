@@ -26,6 +26,7 @@ int main()
                 dp[i][j] = dp[i - 1][j];
             else
             {
+                // 적은 무게로 큰 가치
                 // 물건을 담지 않는 경우 와 물건을 담는 경우를 비교하여 가치가 큰것으로 결정
                 dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight] + val);
             }
