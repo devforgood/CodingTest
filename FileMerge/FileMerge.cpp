@@ -45,6 +45,13 @@ int main()
                 // 중간 인덱스
                 for (int mid = start; mid < end; ++mid)
                 {
+                    // start에서 end 까지 합의 비용 sum[end] - sum[start-1] (이부분이 이해가 안가면 문제를 다시 살펴본다)
+                    // 예)
+                    // 1,1 + 2,5
+                    // 1,2 + 3,5
+                    // 1,3 + 4,5
+                    // 1,4 + 5,5
+
                     dp[start][end] = min(dp[start][end], dp[start][mid] + dp[mid + 1][end] + sum[end] - sum[start-1]);
                 }
             }
