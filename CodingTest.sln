@@ -269,6 +269,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DFS_BFS", "DFS_BFS\DFS_BFS.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "virus", "virus\virus.vcxproj", "{337E3019-E965-4EFE-90A7-9770CA284B0C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApartmentComplexNumbering", "ApartmentComplexNumbering\ApartmentComplexNumbering.vcxproj", "{48973B20-9139-4767-9CE5-777D7E091DA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1189,6 +1191,14 @@ Global
 		{337E3019-E965-4EFE-90A7-9770CA284B0C}.Release|x64.Build.0 = Release|x64
 		{337E3019-E965-4EFE-90A7-9770CA284B0C}.Release|x86.ActiveCfg = Release|Win32
 		{337E3019-E965-4EFE-90A7-9770CA284B0C}.Release|x86.Build.0 = Release|Win32
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Debug|x64.ActiveCfg = Debug|x64
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Debug|x64.Build.0 = Debug|x64
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Debug|x86.ActiveCfg = Debug|Win32
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Debug|x86.Build.0 = Debug|Win32
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Release|x64.ActiveCfg = Release|x64
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Release|x64.Build.0 = Release|x64
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Release|x86.ActiveCfg = Release|Win32
+		{48973B20-9139-4767-9CE5-777D7E091DA5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1323,6 +1333,7 @@ Global
 		{FCD54E36-770F-4B0B-953B-441E75A6F994} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
 		{74CA4121-C8CA-419C-B1B3-D826BD6BD0C0} = {FCD54E36-770F-4B0B-953B-441E75A6F994}
 		{337E3019-E965-4EFE-90A7-9770CA284B0C} = {FCD54E36-770F-4B0B-953B-441E75A6F994}
+		{48973B20-9139-4767-9CE5-777D7E091DA5} = {FCD54E36-770F-4B0B-953B-441E75A6F994}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
