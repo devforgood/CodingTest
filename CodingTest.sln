@@ -273,6 +273,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ApartmentComplexNumbering",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OrganicCabbage", "OrganicCabbage\OrganicCabbage.vcxproj", "{C92EE07D-934A-4C1B-9291-C683FD4E40C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dynamic programming 4", "dynamic programming 4", "{8EA06E2A-2FAC-4EF8-8AD8-FD2704AA9BC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PalindromePartition", "PalindromePartition\PalindromePartition.vcxproj", "{397DE9DC-C3BD-450E-BD9F-460342A0325D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1209,6 +1213,14 @@ Global
 		{C92EE07D-934A-4C1B-9291-C683FD4E40C7}.Release|x64.Build.0 = Release|x64
 		{C92EE07D-934A-4C1B-9291-C683FD4E40C7}.Release|x86.ActiveCfg = Release|Win32
 		{C92EE07D-934A-4C1B-9291-C683FD4E40C7}.Release|x86.Build.0 = Release|Win32
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Debug|x64.ActiveCfg = Debug|x64
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Debug|x64.Build.0 = Debug|x64
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Debug|x86.ActiveCfg = Debug|Win32
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Debug|x86.Build.0 = Debug|Win32
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Release|x64.ActiveCfg = Release|x64
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Release|x64.Build.0 = Release|x64
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Release|x86.ActiveCfg = Release|Win32
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1345,6 +1357,8 @@ Global
 		{337E3019-E965-4EFE-90A7-9770CA284B0C} = {FCD54E36-770F-4B0B-953B-441E75A6F994}
 		{48973B20-9139-4767-9CE5-777D7E091DA5} = {FCD54E36-770F-4B0B-953B-441E75A6F994}
 		{C92EE07D-934A-4C1B-9291-C683FD4E40C7} = {FCD54E36-770F-4B0B-953B-441E75A6F994}
+		{8EA06E2A-2FAC-4EF8-8AD8-FD2704AA9BC4} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
+		{397DE9DC-C3BD-450E-BD9F-460342A0325D} = {8EA06E2A-2FAC-4EF8-8AD8-FD2704AA9BC4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
