@@ -295,6 +295,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shortest distance", "shorte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dijkstar", "dijkstar\dijkstar.vcxproj", "{21F80EB3-E76E-48F6-8C98-B2382760A610}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "particularShortestDistance", "particularShortestDistance\particularShortestDistance.vcxproj", "{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1303,6 +1305,14 @@ Global
 		{21F80EB3-E76E-48F6-8C98-B2382760A610}.Release|x64.Build.0 = Release|x64
 		{21F80EB3-E76E-48F6-8C98-B2382760A610}.Release|x86.ActiveCfg = Release|Win32
 		{21F80EB3-E76E-48F6-8C98-B2382760A610}.Release|x86.Build.0 = Release|Win32
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Debug|x64.ActiveCfg = Debug|x64
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Debug|x64.Build.0 = Debug|x64
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Debug|x86.Build.0 = Debug|Win32
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Release|x64.ActiveCfg = Release|x64
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Release|x64.Build.0 = Release|x64
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Release|x86.ActiveCfg = Release|Win32
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1450,6 +1460,7 @@ Global
 		{44B6A9EC-CF59-4E20-91B2-E302B7C4BD30} = {FCD54E36-770F-4B0B-953B-441E75A6F994}
 		{BFCC1382-613C-40AF-9546-1CBAAF463E72} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
 		{21F80EB3-E76E-48F6-8C98-B2382760A610} = {BFCC1382-613C-40AF-9546-1CBAAF463E72}
+		{B791BA1B-3AC6-4D46-B243-41CE61A6E98F} = {BFCC1382-613C-40AF-9546-1CBAAF463E72}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
