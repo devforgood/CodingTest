@@ -12,7 +12,7 @@ int dist[20001];
 int N, E;
 
 
-int dijkstar(int start, int end)
+int dijkstra(int start, int end)
 {
 	for (int i = 0; i <= N; ++i)
 		dist[i] = INF;
@@ -70,14 +70,14 @@ int main()
 	cin >> v1 >> v2;
 
 	int answer = 0;
-	answer += dijkstar(1, v1);
-	answer += dijkstar(v1, v2);
-	answer += dijkstar(v2, N);
+	answer += dijkstra(1, v1);
+	answer += dijkstra(v1, v2);
+	answer += dijkstra(v2, N);
 
 	int answer2 = 0;
-	answer2 += dijkstar(1, v2);
-	answer2 += dijkstar(v2, v1);
-	answer2 += dijkstar(v1, N);
+	answer2 += dijkstra(1, v2);
+	answer2 += dijkstra(v2, v1);
+	answer2 += dijkstra(v1, N);
 
 	if (answer > answer2)
 		answer = answer2;
