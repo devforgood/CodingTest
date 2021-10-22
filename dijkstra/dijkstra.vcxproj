@@ -24,6 +24,7 @@
     <ProjectGuid>{21f80eb3-e76e-48f6-8c98-b2382760a610}</ProjectGuid>
     <RootNamespace>dijkstar</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>dijkstra</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -139,7 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="dijkstar.cpp" />
+    <ClCompile Include="dijkstra.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="readme.md" />
