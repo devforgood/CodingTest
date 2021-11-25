@@ -339,6 +339,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tree", "tree", "{85ABE504-4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeParentSearch", "TreeParentSearch\TreeParentSearch.vcxproj", "{E752970C-F5EA-4DDA-82A8-6175C77E07CC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeDiameter", "TreeDiameter\TreeDiameter.vcxproj", "{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1507,6 +1509,14 @@ Global
 		{E752970C-F5EA-4DDA-82A8-6175C77E07CC}.Release|x64.Build.0 = Release|x64
 		{E752970C-F5EA-4DDA-82A8-6175C77E07CC}.Release|x86.ActiveCfg = Release|Win32
 		{E752970C-F5EA-4DDA-82A8-6175C77E07CC}.Release|x86.Build.0 = Release|Win32
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Debug|x64.ActiveCfg = Debug|x64
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Debug|x64.Build.0 = Debug|x64
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Debug|x86.ActiveCfg = Debug|Win32
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Debug|x86.Build.0 = Debug|Win32
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Release|x64.ActiveCfg = Release|x64
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Release|x64.Build.0 = Release|x64
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Release|x86.ActiveCfg = Release|Win32
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1676,6 +1686,7 @@ Global
 		{29B1DE18-0E0D-4C9C-B8FE-065619E2BB48} = {8AAEF13D-092F-445E-ACAA-7BD227094152}
 		{85ABE504-4ED8-425D-AD0F-56D893DC57B5} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
 		{E752970C-F5EA-4DDA-82A8-6175C77E07CC} = {85ABE504-4ED8-425D-AD0F-56D893DC57B5}
+		{05BB71B1-684D-4E7F-AAD9-8E7EC085D753} = {85ABE504-4ED8-425D-AD0F-56D893DC57B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
