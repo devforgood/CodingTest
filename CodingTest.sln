@@ -347,6 +347,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeTraversal", "TreeTraver
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeTraversal 2", "TreeTraversal 2\TreeTraversal 2.vcxproj", "{931F5404-389B-4E20-92EA-807D3BFE7747}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.vcxproj", "{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1547,6 +1549,14 @@ Global
 		{931F5404-389B-4E20-92EA-807D3BFE7747}.Release|x64.Build.0 = Release|x64
 		{931F5404-389B-4E20-92EA-807D3BFE7747}.Release|x86.ActiveCfg = Release|Win32
 		{931F5404-389B-4E20-92EA-807D3BFE7747}.Release|x86.Build.0 = Release|Win32
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Debug|x64.ActiveCfg = Debug|x64
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Debug|x64.Build.0 = Debug|x64
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Debug|x86.ActiveCfg = Debug|Win32
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Debug|x86.Build.0 = Debug|Win32
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Release|x64.ActiveCfg = Release|x64
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Release|x64.Build.0 = Release|x64
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Release|x86.ActiveCfg = Release|Win32
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1720,6 +1730,7 @@ Global
 		{1104B5E1-C719-4222-84BD-E80C292936FD} = {85ABE504-4ED8-425D-AD0F-56D893DC57B5}
 		{BC5CAEE8-7AE2-4587-B1F1-FFD43ADB9747} = {85ABE504-4ED8-425D-AD0F-56D893DC57B5}
 		{931F5404-389B-4E20-92EA-807D3BFE7747} = {85ABE504-4ED8-425D-AD0F-56D893DC57B5}
+		{A15DBDFC-B959-441B-A7F2-FB14FF1F9C8A} = {85ABE504-4ED8-425D-AD0F-56D893DC57B5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
