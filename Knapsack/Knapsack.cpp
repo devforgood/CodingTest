@@ -17,17 +17,20 @@ int main()
         cin >> item[i][0] >> item[i][1];
     }
 
+    // 첫번째 물건 부터 시작
     for (int i = 1; i <= N; i++)
     {
         int weight = item[i][0], val = item[i][1];
+        // 무게 0부터 k무게 까지
         for (int j = 0; j <= K; j++)
         {
             if (j < weight)
+                // 무게 초과로 담지 못함, 이전 것으로 대치
                 dp[i][j] = dp[i - 1][j];
             else
             {
                 // 적은 무게로 큰 가치
-                // 물건을 담지 않는 경우 와 물건을 담는 경우를 비교하여 가치가 큰것으로 결정
+                // 물건을 담지 않는 경우 와 물건을 담는 경우를 비교하여 가치가 큰 것으로 결정
                 dp[i][j] = max(dp[i - 1][j], dp[i - 1][j - weight] + val);
             }
         }
