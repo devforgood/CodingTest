@@ -355,6 +355,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "union find", "union find", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SetExpression", "SetExpression\SetExpression.vcxproj", "{C1BACEDF-1FDB-4370-B3E1-389A2833B854}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoTrip", "GoTrip\GoTrip.vcxproj", "{18C53755-BE62-462A-8139-5C4B50F06E3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1579,6 +1581,14 @@ Global
 		{C1BACEDF-1FDB-4370-B3E1-389A2833B854}.Release|x64.Build.0 = Release|x64
 		{C1BACEDF-1FDB-4370-B3E1-389A2833B854}.Release|x86.ActiveCfg = Release|Win32
 		{C1BACEDF-1FDB-4370-B3E1-389A2833B854}.Release|x86.Build.0 = Release|Win32
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Debug|x64.ActiveCfg = Debug|x64
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Debug|x64.Build.0 = Debug|x64
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Debug|x86.ActiveCfg = Debug|Win32
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Debug|x86.Build.0 = Debug|Win32
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Release|x64.ActiveCfg = Release|x64
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Release|x64.Build.0 = Release|x64
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Release|x86.ActiveCfg = Release|Win32
+		{18C53755-BE62-462A-8139-5C4B50F06E3A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1756,6 +1766,7 @@ Global
 		{5B313957-3E84-476A-B880-67FB7068127F} = {85ABE504-4ED8-425D-AD0F-56D893DC57B5}
 		{502A1F6A-5654-4E33-B04B-AB214A99FE29} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
 		{C1BACEDF-1FDB-4370-B3E1-389A2833B854} = {502A1F6A-5654-4E33-B04B-AB214A99FE29}
+		{18C53755-BE62-462A-8139-5C4B50F06E3A} = {502A1F6A-5654-4E33-B04B-AB214A99FE29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
