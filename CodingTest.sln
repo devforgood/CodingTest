@@ -371,6 +371,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstellationMake", "Conste
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommunionWithUniverseGod", "CommunionWithUniverseGod\CommunionWithUniverseGod.vcxproj", "{3C22A298-A174-4900-A813-50AD97C6DCA6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlanetTunnel", "PlanetTunnel\PlanetTunnel.vcxproj", "{EAF46706-41BB-40D9-9A25-7FA1425FB236}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1651,6 +1653,14 @@ Global
 		{3C22A298-A174-4900-A813-50AD97C6DCA6}.Release|x64.Build.0 = Release|x64
 		{3C22A298-A174-4900-A813-50AD97C6DCA6}.Release|x86.ActiveCfg = Release|Win32
 		{3C22A298-A174-4900-A813-50AD97C6DCA6}.Release|x86.Build.0 = Release|Win32
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Debug|x64.ActiveCfg = Debug|x64
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Debug|x64.Build.0 = Debug|x64
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Debug|x86.ActiveCfg = Debug|Win32
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Debug|x86.Build.0 = Debug|Win32
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Release|x64.ActiveCfg = Release|x64
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Release|x64.Build.0 = Release|x64
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Release|x86.ActiveCfg = Release|Win32
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1836,6 +1846,7 @@ Global
 		{708B75D3-2620-4223-B17B-FB2F986B5EA9} = {F581A254-6E5A-4239-BD16-C2C26691D8BD}
 		{D8050704-14A1-4E7B-ADF6-B303FF245625} = {F581A254-6E5A-4239-BD16-C2C26691D8BD}
 		{3C22A298-A174-4900-A813-50AD97C6DCA6} = {F581A254-6E5A-4239-BD16-C2C26691D8BD}
+		{EAF46706-41BB-40D9-9A25-7FA1425FB236} = {F581A254-6E5A-4239-BD16-C2C26691D8BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
