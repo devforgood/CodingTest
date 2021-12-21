@@ -377,6 +377,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dynamic programming in tree
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tree and query", "tree and query\tree and query.vcxproj", "{0383EC40-EEAA-42F3-A087-8C777C0F1580}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeIndependentSet", "TreeIndependentSet\TreeIndependentSet.vcxproj", "{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1673,6 +1675,14 @@ Global
 		{0383EC40-EEAA-42F3-A087-8C777C0F1580}.Release|x64.Build.0 = Release|x64
 		{0383EC40-EEAA-42F3-A087-8C777C0F1580}.Release|x86.ActiveCfg = Release|Win32
 		{0383EC40-EEAA-42F3-A087-8C777C0F1580}.Release|x86.Build.0 = Release|Win32
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Debug|x64.ActiveCfg = Debug|x64
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Debug|x64.Build.0 = Debug|x64
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Debug|x86.Build.0 = Debug|Win32
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Release|x64.ActiveCfg = Release|x64
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Release|x64.Build.0 = Release|x64
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Release|x86.ActiveCfg = Release|Win32
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1861,6 +1871,7 @@ Global
 		{EAF46706-41BB-40D9-9A25-7FA1425FB236} = {F581A254-6E5A-4239-BD16-C2C26691D8BD}
 		{8788A45D-C0D1-46B5-BDD2-302505EF7A19} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
 		{0383EC40-EEAA-42F3-A087-8C777C0F1580} = {8788A45D-C0D1-46B5-BDD2-302505EF7A19}
+		{BDBB153F-6A33-40D4-ABE2-F42A593CD9DC} = {8788A45D-C0D1-46B5-BDD2-302505EF7A19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
