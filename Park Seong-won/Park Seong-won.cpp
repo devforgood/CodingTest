@@ -56,13 +56,17 @@ int main()
 	// 1110, 1011, 0111, 1101
 	// 1111
 	dp[0][0] = 1;
+	// 순열 상태
 	for (int cur = 0; cur < (1 << n); ++cur)
 	{
+		// 다음 넣을 인덱스
 		for (int i = 0; i < n; ++i)
 		{
+			// 이전에 포함된 것은 제외
 			if ((cur & (1 << i)) == 0)
 			{
 				int next = cur | (1 << i);
+				// 나머지가 0~k-1까지 
 				for (int j = 0; j < k; ++j)
 				{
 					int nextK = ((j * arr[str[i].length()]) % k + arr2[i]) % k;
