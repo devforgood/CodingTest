@@ -403,6 +403,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "to home", "to home\to home.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Park Seong-won", "Park Seong-won\Park Seong-won.vcxproj", "{035062EA-E3F1-4979-87BA-A90AD1C874C6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RGB street 2", "RGB street 2\RGB street 2.vcxproj", "{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1795,6 +1797,14 @@ Global
 		{035062EA-E3F1-4979-87BA-A90AD1C874C6}.Release|x64.Build.0 = Release|x64
 		{035062EA-E3F1-4979-87BA-A90AD1C874C6}.Release|x86.ActiveCfg = Release|Win32
 		{035062EA-E3F1-4979-87BA-A90AD1C874C6}.Release|x86.Build.0 = Release|Win32
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Debug|x64.ActiveCfg = Debug|x64
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Debug|x64.Build.0 = Debug|x64
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Debug|x86.Build.0 = Debug|Win32
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Release|x64.ActiveCfg = Release|x64
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Release|x64.Build.0 = Release|x64
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Release|x86.ActiveCfg = Release|Win32
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1996,6 +2006,7 @@ Global
 		{2152F886-EDED-43C2-A7E7-D9DF0B73B7FF} = {DD86B4DD-AEED-4367-AEB0-863DE4C43E5D}
 		{0BAB4D90-415D-4EDD-8D05-5ECEF7524755} = {DD86B4DD-AEED-4367-AEB0-863DE4C43E5D}
 		{035062EA-E3F1-4979-87BA-A90AD1C874C6} = {84503FD4-5D2E-4FC1-AE12-0764F2EC9E92}
+		{35B00B7B-3AAB-44B4-891C-21AC2485E6C3} = {84503FD4-5D2E-4FC1-AE12-0764F2EC9E92}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
