@@ -423,6 +423,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "string set", "string set\st
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mobile phone keyboard", "mobile phone keyboard\mobile phone keyboard.vcxproj", "{815ED69F-ED02-4027-B944-E4D840B4EBE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "topological sorting", "topological sorting", "{7B45FBDD-A59F-4F31-AF23-F7942809475F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lining", "lining\lining.vcxproj", "{665107EC-0D23-404A-8299-913B392FB1B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1887,6 +1891,14 @@ Global
 		{815ED69F-ED02-4027-B944-E4D840B4EBE4}.Release|x64.Build.0 = Release|x64
 		{815ED69F-ED02-4027-B944-E4D840B4EBE4}.Release|x86.ActiveCfg = Release|Win32
 		{815ED69F-ED02-4027-B944-E4D840B4EBE4}.Release|x86.Build.0 = Release|Win32
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Debug|x64.ActiveCfg = Debug|x64
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Debug|x64.Build.0 = Debug|x64
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Debug|x86.Build.0 = Debug|Win32
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Release|x64.ActiveCfg = Release|x64
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Release|x64.Build.0 = Release|x64
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Release|x86.ActiveCfg = Release|Win32
+		{665107EC-0D23-404A-8299-913B392FB1B4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2098,6 +2110,8 @@ Global
 		{A3D54DD5-9296-4F69-84AC-B7A6AEEFBFE7} = {8A6AD938-75E4-40DC-B9C7-80DB34FA18CF}
 		{DAFA55A5-870C-4620-85AB-89C71D9E77BB} = {8A6AD938-75E4-40DC-B9C7-80DB34FA18CF}
 		{815ED69F-ED02-4027-B944-E4D840B4EBE4} = {8A6AD938-75E4-40DC-B9C7-80DB34FA18CF}
+		{7B45FBDD-A59F-4F31-AF23-F7942809475F} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
+		{665107EC-0D23-404A-8299-913B392FB1B4} = {7B45FBDD-A59F-4F31-AF23-F7942809475F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
