@@ -7,6 +7,10 @@ void move(int from, int to)
 {
 	cout << from << " " << to << '\n';
 }
+// hanoi(x, y, z)
+// x, z, y
+// x, y
+// z, y, x
 
 void hanoi(int n, int from, int by, int to)
 {
