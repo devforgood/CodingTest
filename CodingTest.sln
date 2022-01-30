@@ -437,6 +437,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Least Common Ancestor", "Le
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "The closest common ancenstor", "The closest common ancenstor\The closest common ancenstor.vcxproj", "{33AF17C4-D622-4632-8D7F-409EB8B4D065}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "composite function and query", "composite function and query\composite function and query.vcxproj", "{CF500A11-F54F-4DCF-BEAE-FC22452274CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1941,6 +1943,14 @@ Global
 		{33AF17C4-D622-4632-8D7F-409EB8B4D065}.Release|x64.Build.0 = Release|x64
 		{33AF17C4-D622-4632-8D7F-409EB8B4D065}.Release|x86.ActiveCfg = Release|Win32
 		{33AF17C4-D622-4632-8D7F-409EB8B4D065}.Release|x86.Build.0 = Release|Win32
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Debug|x64.ActiveCfg = Debug|x64
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Debug|x64.Build.0 = Debug|x64
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Debug|x86.ActiveCfg = Debug|Win32
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Debug|x86.Build.0 = Debug|Win32
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Release|x64.ActiveCfg = Release|x64
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Release|x64.Build.0 = Release|x64
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Release|x86.ActiveCfg = Release|Win32
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2159,6 +2169,7 @@ Global
 		{8559469A-EE6B-46C8-9ED6-8E8CBA115627} = {7B45FBDD-A59F-4F31-AF23-F7942809475F}
 		{8AD58FEB-DFF9-45DC-8672-1415B20FB32E} = {2F61C196-CC63-4A94-BB50-BD9482A8F9BD}
 		{33AF17C4-D622-4632-8D7F-409EB8B4D065} = {8AD58FEB-DFF9-45DC-8672-1415B20FB32E}
+		{CF500A11-F54F-4DCF-BEAE-FC22452274CC} = {8AD58FEB-DFF9-45DC-8672-1415B20FB32E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66783801-A91D-4FA9-A115-1592B1EB0518}
