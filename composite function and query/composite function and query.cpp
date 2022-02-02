@@ -10,7 +10,7 @@
 using namespace std;
 
 // log(500000)
-long long dp[505050][22];
+long long dp[500001][22];
 
 
 
@@ -27,6 +27,9 @@ int main()
         cin >> dp[i][0];
     }
 
+    // 3 3 5 4 3
+    // 2, 1  : 3 -> 5
+    // 5, 1  : 3 -> 5 -> 3 -> 5 -> 3
     for (int j = 1; j < 22; j++)
     {
         for (int i = 1; i <= m; i++)
